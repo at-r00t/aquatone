@@ -87,7 +87,7 @@ It is also possible to set a permanent default output destination by defining an
 
 ### Specifying ports to scan
 
-Be default, Aquatone will scan target hosts with a small list of commonly used HTTP ports: 80, 443, 8000, 8080 and 8443. You can change this to your own list of ports with the `-ports` flag:
+By default, Aquatone will scan target hosts with a small list of commonly used HTTP ports: 80, 443, 8000, 8080 and 8443. You can change this to your own list of ports with the `-ports` flag:
 
     $ cat hosts.txt | aquatone -ports 80,443,3000,3001
 
